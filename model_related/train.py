@@ -36,8 +36,8 @@ if __name__ == '__main__':
     eval_accuracy_best = 25.
     eval_accuracy = 25.
     train_accuracy = 25.
-    total_score_best = 1856.2
-    total_score = 1200
+    total_score_best = 180
+    total_score = 180
     times = update_times(total_score)
 
     # load dataset
