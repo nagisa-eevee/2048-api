@@ -7,6 +7,16 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
     * [`agents.py`](game2048/agents.py): the `Agent` class with instances.
     * [`displays.py`](game2048/displays.py): the `Display` class with instances, to show the `Game` state.
     * [`expectimax/`](game2048/expectimax): a powerful ExpectiMax agent by [here](https://github.com/nneonneo/2048-ai).
+* [`data/`](data/): the main package.
+    * [`data_eval.csv`](data/data_eval.csv): the evaset to evaluate model generalization ability.
+    * [`dataprocess.py`](data/dataprocess.py): the `Data` class, to generate training data. Other functions or classes relate to data procession is also included.
+    * [`dataprocess_old.py`](data/dataprocess_old.py): the `Data` class, discarded.
+    * [`test.py`](data/dataprocess_old.py): several instances of IO function.
+* [`model_related/`](model_related/): the main package.
+    * [`eval.py`](model_related/eval.py): the `eval` function with instances.
+    * [`logger.py`](model_related/logger.py): the `Logger` class, to launch tensorboard.
+    * [`model.py`](model_related/model.py): the `ConvNet` class, the DNN used to complete the 2048 game.
+    * [`train.py`](model_related/train.py): the program used to train the `model`.
 * [`explore.ipynb`](explore.ipynb): introduce how to use the `Agent`, `Display` and `Game`.
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
