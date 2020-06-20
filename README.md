@@ -17,6 +17,7 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
     * [`logger.py`](model_related/logger.py): the `Logger` class, to launch tensorboard.
     * [`model.py`](model_related/model.py): the `ConvNet` class, the DNN used to complete the 2048 game.
     * [`train.py`](model_related/train.py): the program used to train the `model`.
+    * [`train_test.py`](model_related/train_test.py): used to evaluate the ability of the initial `model`.
 * [`explore.ipynb`](explore.ipynb): introduce how to use the `Agent`, `Display` and `Game`.
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
